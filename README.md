@@ -1,4 +1,4 @@
 bootstrap_example
 =================
 
-bootstrap stud project
+bootstrap study project
