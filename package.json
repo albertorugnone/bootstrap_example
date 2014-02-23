@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap_example",
+  "version": "0.0.0",
+  "description": "bootstrap study project",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/albertorugnone/bootstrap_example.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "example",
+    "study"
+  ],
+  "author": "alberto rugnone",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "9026807a9358cf586da0e617e825ff9106461f01"
+}
