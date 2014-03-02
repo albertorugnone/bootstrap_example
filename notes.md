@@ -14,7 +14,7 @@
 **note** here some notion about git
     - http://stackoverflow.com/questions/13148066/warning-push-default-is-unset-its-implicit-value-is-changing-in-git-2-0
     - http://git-scm.com/docs/git-config.html
-    - set for soundness <code>git config --global push.default simple<code>
+    - set for soundness <code>git config --global push.default simple</code>
 - created bootstrap_example.sublimeproject 
 - installed Emmet https://github.com/sergeche/emmet-sublime#how-to-install
 - see also http://docs.emmet.io/abbreviations/syntax/
@@ -26,3 +26,26 @@
     + Installed HTML5
     + Installed Bootstrap Snippet
 - TODO : account per Gist
+
+##dom 23 feb 2014 11:05:27 CET
+- installed AdvanceNewFile
+- installed grunt-init
+- add package.json by npm init https://www.npmjs.org/doc/init.html http://nodejs.org/api/modules.html
+- TODO : non riesco ad aggiungere automaticamente grunt via script ho fatto npm install grunt --save-dev ma non è il verso giusto. Da leggere meglio grunt.
+-
+
+
+
+##dom 02 mar 2014 02:20:51 CET 
+- try to create GruntFile properly
+    + reading
+        * http://www.codingcolor.com/javascript/setting-up-a-boilerplate-gruntfile-js/
+        * http://gruntjs.com/project-scaffolding
+        * http://gruntjs.com/getting-started
+    + installed
+        * Grunt for sublime-text https://github.com/tvooo/sublime-grunt
+        * Grunt snippet
+- How to add dependencies to package.json
+    + follow this http://stackoverflow.com/questions/21198977/difference-between-grunt-and-bower-package-json-vs-bower-json to add programmatically a dependencies to package.json
+    + *NB* --save-dev add dependencies to devDependencies --save to devependencies
+ 
