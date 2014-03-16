@@ -32,8 +32,6 @@
 - installed grunt-init
 - add package.json by npm init https://www.npmjs.org/doc/init.html http://nodejs.org/api/modules.html
 - TODO : non riesco ad aggiungere automaticamente grunt via script ho fatto npm install grunt --save-dev ma non è il verso giusto. Da leggere meglio grunt.
--
-
 
 
 ##dom 02 mar 2014 02:20:51 CET 
@@ -48,19 +46,15 @@
 - How to add dependencies to package.json
     + follow this http://stackoverflow.com/questions/21198977/difference-between-grunt-and-bower-package-json-vs-bower-json to add programmatically a dependencies to package.json
     + *NB* --save-dev add dependencies to devDependencies --save to devependencies
- - TODO - effettuare il rever al commit precedente. In quanto ho committao anche node_modules. vedi http://stackoverflow.com/questions/4114095/revert-to-previous-git-commit
+ - TODO - effettuare il revert al commit precedente. In quanto ho committao anche node_modules. vedi http://stackoverflow.com/questions/4114095/revert-to-previous-git-commit
  
 ##mer 05 mar 2014 17:39:46 CET 
 - installed apache2
     + deploy directory is /var/wwww
-- configured in /etc/apache2/apache2.conf  
-
-         <Directory /var/www/>
-                 Options Indexes FollowSymLinks
-                 AllowOverride AutConfıg
-                 Require all granted
-         </Directory >
 -  TODO read [Berkshelf](http://berkshelf.com/) e installare le sue recipe per uno sviluppo JS puro
+
+
+#dom 16 mar 2014 23:01:30 CET
 
 
 
