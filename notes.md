@@ -48,4 +48,20 @@
 - How to add dependencies to package.json
     + follow this http://stackoverflow.com/questions/21198977/difference-between-grunt-and-bower-package-json-vs-bower-json to add programmatically a dependencies to package.json
     + *NB* --save-dev add dependencies to devDependencies --save to devependencies
+ - TODO - effettuare il rever al commit precedente. In quanto ho committao anche node_modules. vedi http://stackoverflow.com/questions/4114095/revert-to-previous-git-commit
  
+##mer 05 mar 2014 17:39:46 CET 
+- installed apache2
+    + deploy directory is /var/wwww
+- configured in /etc/apache2/apache2.conf  
+
+         <Directory /var/www/>
+                 Options Indexes FollowSymLinks
+                 AllowOverride AutConfıg
+                 Require all granted
+         </Directory >
+-  TODO read [Berkshelf](http://berkshelf.com/) e installare le sue recipe per uno sviluppo JS puro
+
+
+
+    

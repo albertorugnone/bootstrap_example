@@ -35,42 +35,77 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "notes.md",
-			"settings":
-			{
-				"buffer_size": 1406,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Package Control Messages\n========================\n\nEmmet:\n-----\n\n  Thank you for installing Emmet -- a toolkit that can greatly improve your workflow. Note that this plugin automatically downloads and installs PyV8 binary (see status bar message). \n  \n  ******************************\n  Please restart editor \n  to finish installation process \n  after PyV8 was downloaded.\n  ******************************\n  \n  Tab key handler\n  ==========================\n  \n  By default, Emmet allows you to expand abbreviations with Tab key in HTML, XML, HAML and CSS/SASS/LESS/Stylus documents. As a side effect, you can’t use some of your ST2 snippets.\n  \n  Please read https://github.com/sergeche/emmet-sublime#tab-key-handler about how Tab handler works and how to tweak its behavior to match your needs.\n  \n  Enter key\n  ==========================\n  \n  In HTML and XML documents, Emmet overrides Enter key to insert formatted line breaks between opening and closing tags. In some cases it will break character input (for example, in Japanese language).\n  \n  To disable Enter key handler, simply add the following option in your user's Preferences file:\n  \n  \"disable_formatted_linebreak\": true\n  \n  Actions shortcuts\n  ==========================\n  \n  Emmet has a number of actions with keyboard shortcuts that may override ones you're using commonly (for example, Ctrl-E or Ctrl-Down). Please read the project main page to get list of available actions and keyboard shortcuts and how to disable them:\n  https://github.com/sergeche/emmet-sublime\n  \n  Documentation and examples:\n  http://emmet.io\n  \n  ------------------------------\n  Follow me on Twitter: @emmetio\n  ------------------------------\n  \n",
-			"settings":
-			{
-				"buffer_size": 1692,
-				"line_ending": "Unix",
-				"name": "Package Control Messages",
-				"scratch": true
-			}
-		},
-		{
-			"contents": "",
-			"file": "index.html",
-			"file_size": 0,
-			"file_write_time": 130375350387598911,
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/C++/C++.sublime-build",
 	"command_palette":
 	{
-		"height": 339.0,
+		"height": 369.0,
 		"selected_items":
 		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"e",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"prev",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"brow",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"markdao",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"node",
+				"Nodejs::Default File Settings"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"grunt co",
+				"Snippet: grunt.file.copy"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"grunt",
+				"Snippet: Grunt Wrapper"
+			],
+			[
+				"",
+				"Build: Run"
+			],
+			[
+				"Sublim",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"SUblim",
+				"Preferences: SublimeLinter Key Bindings – Default"
+			],
+			[
+				"insatl",
+				"Package Control: Install Package"
+			],
 			[
 				"pack",
 				"Package Control: Install Package"
@@ -78,18 +113,6 @@
 			[
 				"Package Control: install",
 				"Package Control: Install Package"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"html",
-				"Set Syntax: HTML"
-			],
-			[
-				"mark",
-				"Set Syntax: Markdown"
 			],
 			[
 				"chet",
@@ -114,10 +137,6 @@
 			[
 				"toc",
 				"MarkdownTOC:Insert TOC"
-			],
-			[
-				"preview",
-				"Markdown Preview: Python Markdown: Preview in Browser"
 			],
 			[
 				"inser",
@@ -188,10 +207,6 @@
 				"Set Syntax: Shell Script (Bash)"
 			],
 			[
-				"install ",
-				"Package Control: Install Package"
-			],
-			[
 				"Hap",
 				"HTMLPrettify: Set Keyboard Shortcuts"
 			],
@@ -220,7 +235,7 @@
 				"HTML: Wrap Selection With Tag"
 			]
 		],
-		"width": 504.0
+		"width": 647.0
 	},
 	"console":
 	{
@@ -240,6 +255,17 @@
 	},
 	"file_history":
 	[
+		"/etc/apache2/apache2.conf",
+		"/home/tls/Development/workspaces/bootstrap_example/notes.md",
+		"/home/tls/Development/workspaces/notes/Notes.md",
+		"/home/tls/Development/workspaces/notes/+",
+		"/home/tls/Development/workspaces/bootstrap_example/package.json",
+		"/home/tls/Development/workspaces/bootstrap_example/Gruntfile.js",
+		"/home/tls/.config/sublime-text-3/Packages/Nodejs/Nodejs.sublime-settings",
+		"/home/tls/Development/workspaces/bootstrap_example/index.html",
+		"/home/tls/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/tls/.config/sublime-text-3/Packages/SublimeLinter/Default (Linux).sublime-keymap",
+		"/home/tls/.config/sublime-text-3/Packages/AdvancedNewFile/README.md",
 		"/home/tls/Development/workspaces/bootstrap_example/README.md",
 		"/home/tls/Development/workspaces/curricula/node_modules/grunt-google-cdn/node_modules/bower/templates/help-install.mustache",
 		"/home/tls/Development/workspaces/curricula/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/install.js",
@@ -292,7 +318,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -307,6 +333,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"/var/www",
+			"list",
 			" ",
 			"CET",
 			"sab 22 feb 2014 09:21:38 CET",
@@ -338,6 +366,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"li"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -348,95 +377,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "notes.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1406,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1388,
-								1388
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 48.0,
-						"translation.y": 388.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1692,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1692,
-								1692
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -547,7 +489,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 329.0,
 	"status_bar_visible": true,
 	"template_settings":
