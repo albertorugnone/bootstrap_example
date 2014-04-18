@@ -1,6 +1,6 @@
 {
   "name": "bootstrap_example",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "bootstrap study project",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,12 @@
   "gitHead": "9026807a9358cf586da0e617e825ff9106461f01",
   "devDependencies": {
     "grunt": "~0.4.2",
-    "grunt-contrib-copy": "~0.5.0",
-    "grunt-contrib-concat": "~0.3.0"
+    "matchdep": "~0.1.2",
+    "connect": "~2.14.4",
+    "grunt-newer": "~0.7.0",
+    "grunt-express": "~1.0.0-beta2",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-open": "~0.2.1",
+    "grunt-bower-install": "~1.4.0"
   }
 }

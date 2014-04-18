@@ -58,4 +58,6 @@
 
 
 #ven 18 apr 2014 12:18:37 CEST
-    
+- open feature *Default_Basic_Grid*
+    + install grunt serve task following the tutorial here [grunt-livereload-magic](http://rhumaric.com/2013/07/renewing-the-grunt-livereload-magic/)
+    + 

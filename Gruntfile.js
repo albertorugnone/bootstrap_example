@@ -2,23 +2,57 @@
 
 module.exports = function(grunt) {
 
+
+	// Load Grunt tasks declared in the package.json file
+	require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
+
+	// Configure Grunt 
 	grunt.initConfig({
-		pkg: grunt.file.readJSON('package.json')
 
+		// grunt-express will serve the files from the folders listed in `bases`
+		// on specified `port` and `hostname`
+		express: {
+			all: {
+				options: {
+					port: 9000,
+					hostname: "0.0.0.0",
+					bases: '//usr/local/src/dev/bootstrap_example', // Replace with the directory you want the files served from
+					// Make sure you don't use `.` or `..` in the path as Express
+					// is likely to return 403 Forbidden responses if you do
+					// http://stackoverflow.com/questions/14594121/express-res-sendfile-throwing-forbidden-error
+					livereload: true
+				}
+			}
+		},
+		// grunt-watch will monitor the projects files
+		watch: {
+			all: {
+				// Replace with whatever file you want to trigger the update from
+				// Either as a String for a single entry 
+				// or an Array of String for multiple entries
+				// You can use globing patterns like `css/**/*.css`
+				// See https://github.com/gruntjs/grunt-contrib-watch#files
+				files: ['**/*.js', '**/*.html', '**/*.css'],
+				options: {
+					livereload: true
+				}
+			}
+		},
 
-		concat: {
-			options: {
-				// define a string to put between each file in the concatenated output
-				separator: ';'
-			},
-			dist: {
-				// the files to concatenate
-				src: ['src/**/*.js'],
-				// the location of the resulting JS file
-				dest: 'dist/<%= pkg.name %>.js'
+		// grunt-open will open your browser at the project's URL
+		open: {
+			all: {
+				// Gets the port from the connect configuration
+				path: 'http://localhost:<%= express.all.options.port%>'
 			}
 		}
 	});
 
+	// Creates the `server` task
+	grunt.registerTask('server', [
+		'express',
+		'open',
+		'watch'
+	]);
 
 }

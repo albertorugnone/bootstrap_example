@@ -39,36 +39,15 @@
 			"file": "notes.md",
 			"settings":
 			{
-				"buffer_size": 2982,
+				"buffer_size": 3200,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Gruntfile.js",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 409,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "{\n  // save before running commands\n  \"save_first\": true,\n  // if present, use this command instead of plain \"node\"\n  // e.g. \"/usr/bin/node\" or \"C:\\bin\\node.exe\"\n  \"node_command\": false,\n  // Same for NPM command\n  \"npm_command\": false,\n  // as 'NODE_PATH' environment variable for node runtime\n  \"node_path\": false,\n\n  \"expert_mode\": false,\n\n  \"ouput_to_new_tab\": false\n}\n",
-			"file": "/home/tls/.config/sublime-text-3/Packages/Nodejs/Nodejs.sublime-settings",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 374,
-				"line_ending": "Unix",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
-			"file": "bower.json",
-			"settings":
-			{
-				"buffer_size": 500,
+				"buffer_size": 610,
 				"line_ending": "Unix"
 			}
 		}
@@ -76,19 +55,39 @@
 	"build_system": "Packages/C++/C++.sublime-build",
 	"command_palette":
 	{
-		"height": 117.0,
+		"height": 222.0,
 		"selected_items":
 		[
+			[
+				"mld",
+				"Snippet: Markdown_link_(mdl)"
+			],
+			[
+				"insert",
+				"Gist: Insert Gist"
+			],
+			[
+				"create",
+				"Gist: Create Private Gist"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Gist: Create Private Gist"
+			],
 			[
 				"remove",
 				"Package Control: Remove Package"
 			],
 			[
 				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -196,10 +195,6 @@
 				"InsertDate: Custom"
 			],
 			[
-				"insert",
-				"MarkdownTOC:Insert TOC"
-			],
-			[
 				"installe",
 				"Package Control: Install Package"
 			],
@@ -280,7 +275,7 @@
 				"HTML: Wrap Selection With Tag"
 			]
 		],
-		"width": 647.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -300,6 +295,15 @@
 	},
 	"file_history":
 	[
+		"/usr/local/src/dev/bootstrap_example/package.json",
+		"/usr/local/src/dev/bootstrap_example/node_modules/grunt-express/node_modules/connect/node_modules/send/lib/send.js",
+		"/usr/local/src/dev/bootstrap_example/Gruntfile.js",
+		"/usr/local/src/dev/bootstrap_example/node_modules/grunt/node_modules/exit/test/fixtures/10-stderr.txt",
+		"/usr/local/src/dev/bootstrap_example/node_modules/connect/node_modules/multiparty/test/fixture/http/special-chars-in-filename/osx-chrome-13.http",
+		"/home/alberto/.config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
+		"/usr/local/src/dev/bootstrap_example/bower.json",
+		"/usr/local/src/dev/bootstrap_example/notes.md",
+		"/home/tls/.config/sublime-text-3/Packages/Nodejs/Nodejs.sublime-settings",
 		"/home/tls/.config/sublime-text-3/Packages/JsFormat/Default (Linux).sublime-keymap",
 		"/home/tls/Development/workspaces/bootstrap_example/notes.md",
 		"/etc/apache2/apache2.conf",
@@ -307,7 +311,6 @@
 		"/home/tls/Development/workspaces/notes/+",
 		"/home/tls/Development/workspaces/bootstrap_example/package.json",
 		"/home/tls/Development/workspaces/bootstrap_example/Gruntfile.js",
-		"/home/tls/.config/sublime-text-3/Packages/Nodejs/Nodejs.sublime-settings",
 		"/home/tls/Development/workspaces/bootstrap_example/index.html",
 		"/home/tls/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
 		"/home/tls/.config/sublime-text-3/Packages/SublimeLinter/Default (Linux).sublime-keymap",
@@ -379,6 +382,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hasLeadingDot",
+			"'.'",
+			"connect",
 			"},\n",
 			"/var/www",
 			"list",
@@ -424,7 +430,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -433,53 +439,50 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2982,
+						"buffer_size": 3200,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2975,
-								2975
+								3200,
+								3200
 							]
 						],
 						"settings":
 						{
-							"hasHeader": false,
 							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1102.0,
+						"translation.y": 1080.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Gruntfile.js",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 409,
+						"buffer_size": 610,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								221,
-								221
+								610,
+								610
 							]
 						],
 						"settings":
 						{
-							"hasHeader": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -487,73 +490,13 @@
 					},
 					"stack_index": 1,
 					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/tls/.config/sublime-text-3/Packages/Nodejs/Nodejs.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 374,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								374,
-								374
-							]
-						],
-						"settings":
-						{
-							"hasHeader": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "bower.json",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 500,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"hasHeader": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 34.0
 	},
 	"input":
 	{
