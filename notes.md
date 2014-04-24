@@ -58,4 +58,21 @@
 
 
 #ven 18 apr 2014 12:18:37 CEST
+     avviato branch CH1_BOOTSTRAP_SCAFFOLDING
+     installed sublime trimmer
+     installed sublime git
+     installed sublimediff pro
+     installed sublime Aligment
+     see [Emmet cheat](http://docs.emmet.io/cheat-sheet/)
+     see [Sublime Text Side Bar](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/file_management/file_management.html)
+
+
+**Todos** for the next:
+
+- delve into [RequireJS](http://requirejs.org/). *It implements the AMD (Asynchronous Module Definition) spec, which means we can write our own modules and load them with RequireJS, allowing it to manage dependencies for us. *
+     read [tutorial introduction](http://javascriptplayground.com/blog/2012/07/requirejs-amd-tutorial-introduction/)
+     look for node plugin like [bower-requirejs](https://www.npmjs.org/package/bower-requirejs)
     
+-Other:
+     http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html
+     http://www.cheatography.com/njovin/cheat-sheets/sublime-text-2-keyboard-shortcuts-windows/

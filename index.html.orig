@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap 101 Template</title>
+	<link rel="stylesheet" href="bower_components/bootstrap.css/css/bootstrap.min.css">
+</head>
+<body>
+	<h1>Hello world!</h1>
+	<script src="bower_components/bootstrap.css/js/bootstrap.js"></script>
+<<<<<<< Updated upstream
+=======
+
+	<div class="row">
+
+		<div class="span12">Offseting column</div>
+		<div class="span12">To create a simple layout, create acontainer with &#60;div&#62; that has a class of .row and add the approprate amount of . span* columns Since we have a 12-column grid, we just need the amount of . span* columns to equal 12.</div>
+		<div class="span12"><div class="span8">Span 8 </div>
+		<div class="span4">Span 4 </div></div>
+		
+	</div>
+>>>>>>> Stashed changes
+</body>
+</html>
