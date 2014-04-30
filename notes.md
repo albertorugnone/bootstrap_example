@@ -66,6 +66,13 @@
      see [Emmet cheat](http://docs.emmet.io/cheat-sheet/)
      see [Sublime Text Side Bar](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/file_management/file_management.html)
 
+#ven 25 apr 2014 21:20:30 CEST
+    continue CH1_BOOTSTRAP_SCAFFOLDING
+    read [Using <b> and <i> elements](http://www.w3.org/International/questions/qa-b-and-i-tags)
+    read [Text Level Sementics](http://dev.w3.org/html5/spec-author-view/text-level-semantics.html#text-level-semantics)
+
+#dom 27 apr 2014 19:58:47 CEST
+    continue CH1_BOOTSTRAP_SCAFFOLDING
 
 **Todos** for the next:
 
@@ -76,3 +83,5 @@
 -Other:
      http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html
      http://www.cheatography.com/njovin/cheat-sheets/sublime-text-2-keyboard-shortcuts-windows/
+     Remember to gist Gruntfile.js
+     Restore server *task* in Gruntfile.js

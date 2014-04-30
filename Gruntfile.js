@@ -8,6 +8,7 @@ module.exports = function(grunt) {
 
 		concat: {
 			options: {
+			options: {
 				// define a string to put between each file in the concatenated output
 				separator: ';'
 			},
